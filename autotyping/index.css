@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  font-size: 3rem;
+}
+H1 {
+  color: darkred;
+}
+span {
+  color: cornflowerblue;
+  display: inline-flex;
+  align-items: center;
+}
+span::after {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 55px;
+  margin-left: 4px;
+  margin-top: 20px;
+  background-color: darkred;
+}
