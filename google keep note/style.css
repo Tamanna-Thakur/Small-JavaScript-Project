@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif,'Poppins';
+   
+}
+.heading{
+    background-color:rgb(233, 211, 87);
+    padding: 20px;
+    font-size: 10px;
+
+}
+.heading i{
+  margin-right: 10px;
+}
+.add-button{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 1200px;
+    top: 99px;
+}
+.add-button:hover{
+    transform: scale(1.05);
+    transition: 0.4s ease-in;
+    background-color: rgb(189, 137, 107);
+}
+.note {
+    background-color: white;
+    margin: 30px 20px;
+    height: 200px;
+    width: 400px;
+    overflow-y: scroll;
+    margin-top: 7rem;
+    box-shadow: 1px 1px 3px gray;
+    display: inline-block;
+  }
+  
+  .note .oprations {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem;
+    gap: 3px;
+    align-items: flex-end;
+  
+  
+  }
+  
+  .note .oprations button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+ 
+  }
+  
+  .note textarea {
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .fa-pen-to-square,
+  .fa-trash-can {
+    color: #fff;
+    padding: 10px;
+    background-color: #2ecc71;
+    border-radius: 50%;
+    
+  }
+   
+ .fa-trash-can {
+    background-color: #e74c3c;
+  } 
+  
+  .fa-pen-to-square:hover {
+    background-color: white;
+    color: #27ae60;
+    filter: drop-shadow(0px 10px 8px rgb(219, 218, 218));
+  }
+  .fa-trash-can:hover {
+    background-color: white;
+    color: #e74c3c;
+    filter: drop-shadow(0px 10px 8px rgb(219, 218, 218));
+  }
+  
+  .main {
+    font-family: inherit;
+    font-size: 1rem;
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+    font-weight: 500;
+    
+  }
+  .hidden {
+    display: none;
+  }
