@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/gues the number proje/index.css" />
+    <script src="/gues the number proje/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Guess the number</h1>
+    <p>Enter a guess 0 to 100</p>
+    <form>
+      <input
+        class="user-input"
+        type="number"
+        placeholder="Enter a number"
+        max="100"
+        min="0"
+        required
+      />
+      <div class="box">
+        <button id="tom" class="submit">submit</button>
+        <button disabled type="button" id="tom" class="reset">start</button>
+      </div>
+    </form>
+    <p class="result"></p>
+    <p class="lost"></p>
+    <p class="guess-the-number"></p>
+  </body>
+</html>

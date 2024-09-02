@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+}
+.user-input {
+  margin-left: 570px;
+  height: 28px;
+  width: 210px;
+}
+input::placeholder {
+  font-size: 18px;
+  text-align: center;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+  gap: 25px;
+  margin-left: 580px;
+}
+button {
+  padding: 9px 23px;
+  background-color: rgb(226, 167, 146);
+  box-shadow: 0px 0px 5px rgb(209, 127, 97);
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+.reset:disabled {
+  cursor: not-allowed;
+}
+.para1 {
+  display: none;
+}
+.para2 {
+  display: none;
+}
+.para3 {
+  display: none;
+}
+.paragraph1 .para1 {
+  display: block;
+}
+.paragraph2 .para2 {
+  display: block;
+}
+.paragraph3 .para3 {
+  display: block;
+}
