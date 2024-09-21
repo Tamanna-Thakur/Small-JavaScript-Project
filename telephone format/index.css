@@ -1,0 +1,19 @@
+* {
+  text-align: center;
+  box-sizing: border-box;
+}
+H1 {
+  color: chocolate;
+}
+input {
+  width: 260px;
+  height: 30px;
+  text-align: left;
+}
+input::placeholder {
+  font-size: 20px;
+  text-align: left;
+}
+p {
+  font-weight: 600;
+}
