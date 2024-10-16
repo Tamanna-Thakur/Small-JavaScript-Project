@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+input {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  text-align: left;
+}
+.transform-output {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: beige;
+  position: relative;
+  text-align: left;
+}
+.transform-output label {
+  font-size: 0.75rem;
+  position: absolute;
+  top: -0.75rem;
+  left: 1rem;
+  background-color: #000;
+  color: #fff;
+  padding: 0.25rem;
+}
+input::placeholder {
+  text-align: left;
+}
