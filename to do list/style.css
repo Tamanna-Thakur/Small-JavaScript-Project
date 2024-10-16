@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(233, 233, 216);
+}
+.container {
+  height: auto;
+  width: 45vh;
+  background-color: rgb(187, 151, 135);
+  border-radius: 15px;
+  border: none;
+  box-shadow: 4px 5px 6px;
+}
+.header {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+.add-task {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+input {
+  padding: 7px;
+  border-radius: 5px;
+}
+button {
+  padding: 5px;
+  background-color: rgb(243, 223, 107);
+  border-radius: 5px;
+}
+button:hover {
+  border: solid 1px black;
+  box-shadow: 2px 2px 2px;
+}
+ul {
+  list-style: none;
+  padding: 15px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  padding: 8px;
+}
